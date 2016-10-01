@@ -1,0 +1,6 @@
+{
+    "server": "irc server goes here",
+    "port": 6666,
+    "channel": "#your-channel",
+    "nick": "your-bot-name"
+}
