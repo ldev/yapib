@@ -1,3 +1,15 @@
-:p80drone!raphidae@port80.dronemon PRIVMSG xxxxxx :VERSION
-p80drone: VERSION 
+CTCP version?
+    :p80drone!raphidae@port80.dronemon PRIVMSG xxxxxx :VERSION
 
+In channel message
+    j-@ti0068a400-6020.bb.online.no PRIVMSG #hdbits2.org :a
+    match <str>@<str> PRIVMSG #<str> :<str>
+
+Ping
+    PING :efnet.portlane.se
+    PONG :efnet.portlane.se
+    match: PING :<str>
+
+Private message
+    j-@ti0068a400-6020.bb.online.no PRIVMSG j-py :Halla balla
+    match <str>@<str> PRIVMSG [^#]<str> :<str>
